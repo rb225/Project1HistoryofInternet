@@ -1,88 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <meta charset="UTF-8">
-    <title>InventionofInternet</title>
-<style>
-    .header{
-        alignment: left;
-        text-align: left;
-        width: 450px;
-        font-family: "Times New Roman", Times, serif;
-        color: red;
-        text-transform: uppercase;
-    }
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: red;
-        color: white;
-        text-align: center;
-    }
-    .all-browsers {
-        margin: 5px;
-        padding: 25px;
-        background-color: lightgray;
-        background-image: url("Images/Innovation.jpg");
-    }
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    .all-browsers > h1, .browser {
-        margin: 10px;
-        padding: 5px;
-    }
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-    .browser {
-        background: white;
-    }
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    .browser > h2, p {
-        margin: 4px;
-        font-size: 120%;
-    }
-    .p1 {
-         font-family: "Times New Roman", Times, serif;
-     }
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-</style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        a:hover {
+            background-color: #E74C3C;
+            border-color:black;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        * {
+              box-sizing: border-box;
+          }
+        /* Create three unequal columns that floats next to each other */
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }  .all-browsers {
+                margin: 5px;
+                padding: 25px;
+                background-color: red;
+                background-image: url("images/Innovation.jpg");
+            }
 
+            .all-browsers > h1, .browser {
+                margin: 10px;
+                padding: 5px;
+            }
+
+            .browser {
+                background: white;
+            }
+
+            .browser > h2, p {
+                margin: 4px;
+                font-size: 120%;
+            }
+            .p1 {
+                 font-family: "Times New Roman", Times, serif;
+                 color:black;
+                font-size: 23px;
+             }
+
+    </style>
+    <title>Inventors Page</title>
+</head>
 <body>
-    <div class="header">
-        <h2 style="animation-fill-mode: backwards">Inventors of the Internet</h2>
+
+<div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+</div>
+
+<div class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class=""><span class="mr-2  icon-envelope-open-o"></span> <span class="d-none d-md-inline-block">historyofinternet@njit.com</span></a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+    <div class="container">
+        <div class="row align-items-center position-relative">
+
+
+            <div class="site-logo">
+                <div class="logo">
+                    <img src='Images/finallogo.PNG' , width="120" ,align="left">
+                    <span class="text-primary">Inventors</span>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <nav class="site-navigation text-right ml-auto " role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="inventors.html" class="nav-link">Inventors</a></li>
+                        <li class="has-children">
+                            <a href="timeline.html" class="nav-link">Timeline</a>
+                            <ul class="dropdown arrow-top">
+                                <li><a href="truestory.html" class="nav-link">True Story</a></li>
+                                <li><a href="icann.html" class="nav-link">ICANN</a></li>
+                                <li><a href="dotbubble.html" class="nav-link">Dot-Com Bubble</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="evolution.html" class="nav-link">Evolution</a></li>
+                        <li><a href="future.html" class="nav-link">Future</a></li>
+                        <li><a href="developers.html" class="nav-link">Developers</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+        </div>
     </div>
 
-    <article class="all-browsers">
-        <article class="browser">
-            <img src="Images/VintCerf.PNG" , align="left" , width="350" ,height="200" ,border="100">
-            <h2 style="font-size:30px;">Vinf Cerf</h2>
-            <p class="p1"> Vint Cerf invented the protocol that rules them all: TCP/IP. Most people have never heard of it.
-                But it describes the fundamental architecture of the internet, and it made possible Wi-Fi, Ethernet, LANs,
-                the World Wide Web, e-mail, FTP, 3G/4G -- as well as all of the inventions built upon those inventions.
-                Cerf did that in 1973. For most of you that's probably 20 years before you even knew what the internet was.
-                That's why he's known as the father of the internet and earned himself a Presidential Medal of Freedom.
-                Cerf didn't stop there — he went on to co-find the Internet Society (ISOC) and served as president of ICANN,
-                the organization which operates the domain naming system. So, it was pretty much a given that Cerf would be inducted,
-                as he was on Monday, into ISOC's internet Hall of Fame in its inaugural year.He also served from 2000-2007 as chairman of the board of the Internet Corporation for Assigned Names and Numbers (ICANN), an organization he helped form.
-                Cerf served as founding president of the Internet Society from 1992-1995, and in 1999 served a term as Chairman of the Board.</p>
-        </article>
-        <article class="browser">
-            <img src="Images/Robert.PNG" , align="left" , width="250" ,height="180" ,border="5">
-            <h2 style="font-size:30px;">Robert Elliot Kahn</h2>
-            <p class="p1">Robert Kahn is the co-inventor of the TCP/IP protocols and was responsible for originating DARPA’s Internet program. Known as one of the “Fathers of the Internet,” Kahn demonstrated the ARPNET by connecting 20 different computers at the International Computer Communication Conference.
-                While working on the SATNET satellite packet network project, he came up with the initial ideas for what later became the Transmission Control Protocol (TCP), which was intended as a replacement for an earlier network protocol, NCP, used in the ARPANET. TCP played a major role in forming the basis of open-architecture networking, which would allow computers and networks all over the world to communicate with each other, regardless of what hardware or software the computers on each network used.
-                It was then that people realized the importance of packet switching technology.
-                While Director of Information Processing Techniques Office (IPTO) at DARPA, he initiated the United States government's billion-dollar Strategic Computing Program, the largest computer research and development program ever undertaken by the federal government. Dr. Kahn conceived the idea of open-architecture networking and coined the term National Information Infrastructure (NII) in the mid-1980s, which later became more widely known as the Information Superhighway.
-                In December 1997, President Bill Clinton presented the U.S. National Medal of Technology to Kahn and his colleague, Vinton Cerf, for founding and developing the Internet. In 2004, Kahn was the recipient of the ACM Alan M. Turing award (sometimes called the “Nobel Prize of Computer Science”) and in 2005 he was given the Presidential Medal of Freedom by President George Bush.
-            </p>
-        </article>
-    </article>
+</header>
 
-
-    <div class="footer">
-        <p>Quickly connecting the World !</p>
+<div class="all-browsers">
+    <div class="browser">
+        <img src="Images/VintCerf.PNG" , align="left" , width="450">
+        <h2 style="font-size:30px;">Vinf Cerf</h2>
+        <p class="p1"> Vint Cerf invented the demo protocol that rules them all: TCP/IP. Most people have never heard of it.
+            But it describes the fundamental architecture of the internet, and it made possible Wi-Fi, Ethernet, LANs,
+            the World Wide Web, e-mail, FTP, 3G/4G -- as well as all of the inventions built upon those inventions.
+            Cerf did that in 1973. For most of you that's probably 20 years before you even knew what the internet was.
+            That's why he's known as the father of the internet and earned himself a Presidential Medal of Freedom.
+            Cerf didn't stop there — he went on to co-find the Internet Society (ISOC) and served as president of ICANN,
+            the organization which operates the domain naming system.
+            Prior to rejoining MCI in 1994, Cerf was vice president of the Corporation for National Research Initiatives (CNRI). As vice president of MCI Digital Information Services from 1982-1986, he led the engineering of MCI Mail, the first commercial email service to be connected to the Internet. During his tenure from 1976-1982 with the U.S. Department of Defense's Advanced Research Projects Agency (DARPA), Cerf played a key role leading the development of Internet and Internet-related packet data and security technologies.So, it was pretty much a given that Cerf would be inducted,
+            as he was on Monday, into ISOC's internet Hall of Fame in its inaugural year.He also served from 2000-2007 as chairman of the board of the Internet Corporation for Assigned Names and Numbers (ICANN), an organization he helped form.
+            Cerf served as founding president of the Internet Society from 1992-1995, and in 1999 served a term as Chairman of the Board.His personal interests include fine wine, gourmet cooking and science fiction. Cerf and his wife, Sigrid, were married in 1966 and have two sons, David and Bennett.</p>
     </div>
+</div>
+
+<div class="all-browsers">
+    <div class="browser">
+        <img src="Images/kahn.jpg" , align= "left" , width="450"  ,border="5">
+        <h2 style="font-size:30px;">Robert Elliot Kahn</h2>
+        <p class="p1">Robert Kahn is the co-inventor of the TCP/IP protocols and was responsible for originating DARPA’s Internet program. Known as one of the “Fathers of the Internet,” Kahn demonstrated the ARPNET by connecting 20 different computers at the International Computer Communication Conference.
+            While working on the SATNET satellite packet network project, he came up with the initial ideas for what later became the Transmission Control Protocol (TCP), which was intended as a replacement for an earlier network protocol, NCP, used in the ARPANET. TCP played a major role in forming the basis of open-architecture networking, which would allow computers and networks all over the world to communicate with each other, regardless of what hardware or software the computers on each network used.
+            It was then that people realized the importance of packet switching technology.
+            While Director of Information Processing Techniques Office (IPTO) at DARPA, he initiated the United States government's billion-dollar Strategic Computing Program, the largest computer research and development program ever undertaken by the federal government. Dr. Kahn conceived the idea of open-architecture networking and coined the term National Information Infrastructure (NII) in the mid-1980s, which later became more widely known as the Information Superhighway.
+            In December 1997, President Bill Clinton presented the U.S. National Medal of Technology to Kahn and his colleague, Vinton Cerf, for founding and developing the Internet. In 2004, Kahn was the recipient of the ACM Alan M. Turing award (sometimes called the “Nobel Prize of Computer Science”) and in 2005 he was given the Presidential Medal of Freedom by President George Bush.
+    </div>
+</div>
+
+<div class="footer">
+    <p align="center" style="color: wheat">© 2021 Copyright: Harsh Rajesh Damania, Ronak Hemant Baviskar, Nikita Ramesh Gaikwad</p>
+    <h4 align="center" style="color: wheat">Connecting the World Digitally !</h4>
+    <img src="Images/GitHub-icon.png"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
+    <img src="Images/w3c.png" width="70"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite">W3C Validator</a>
+</div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
