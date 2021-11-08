@@ -18,10 +18,7 @@
       clear: both;
       border: #005CBF;
     }
-    #grad1 {
-      background-color: DeepSkyBlue; /* For browsers that do not support gradients */
-      background-image: linear-gradient(DeepSkyBlue,Cornsilk);
-    }
+
     .float-cont > * {
       float:left;
       margin-right:5px;
@@ -37,12 +34,30 @@
     .cont:after {
       clear: both;
     }
-    a:hover {
-       background-color: #E74C3C;
-       border-color:black;
-       font-size: 20px;
-       font-weight: bolder;
-     }
+    a:hover
+    {
+      background-color: #E74C3C;
+      border-color:black;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    body {
+      background-image: url('Images/i2.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
 
   </style>
   <title>DotBubble</title>
@@ -70,29 +85,30 @@
     <div class="row align-items-center position-relative">
       <div class="site-logo">
         <div class="logo">
-          <img src='Images/finallogo.PNG' , width="120" ,align="left">
+          <img src='Images/finallogo.PNG'  alt="Internet connecting the world" width="120">
           <span class="text-primary">Dot-Com Bubble</span>
         </div>
       </div>
       <div class="col-12">
         <nav class="site-navigation text-right ml-auto " role="navigation">
-          <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+          <ol class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
             <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="inventors.html" class="nav-link">Inventors</a></li>
             <li class="has-children">
               <a href="timeline.html" class="nav-link">Timeline</a>
-              <ul class="dropdown arrow-top">
+              <ol class="dropdown arrow-top">
                 <li><a href="truestory.html" class="nav-link">True Story</a></li>
                 <li><a href="icann.html" class="nav-link">ICANN</a></li>
                 <li><a href="dotbubble.html" class="nav-link">Dot-Com Bubble</a></li>
-              </ul>
+              </ol>
             </li>
             <li><a href="evolution.html" class="nav-link">Evolution</a></li>
             <li><a href="future.html" class="nav-link">Future</a></li>
             <li><a href="developers.html" class="nav-link">Developers</a></li>
-          </ul>
+          </ol>
         </nav>
       </div>
+
       <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
     </div>
   </div>
@@ -103,38 +119,34 @@
 <div id="grad1">
 
 
-  <div class="cont float-cont1">
-    <img src="Images/internet9.jpeg">
-    <div>
+  <div class="cont float-cont" style="color:white">
+    <img src="Images/internet9.jpeg" class="image" style="width: 25%">
       When the dot-com bubble burst in 1998, entrepreneurs around the world ran to their nearest venture capitalists for new ideas and capital. Many did not manage the influx of capital prudently, and overspent on ideas rather than managing them prudently. Newcom business plans were predicated on the assumption that by using the Internet, they would bypass the distribution channels of existing businesses and therefore not have to compete with them.
-    </div>
   </div>
-
-  <div class="cont float-cont1">
-    <img src="Images/internet8.jpg" width="500">
-    <div> When the dot-com bubble burst in 1998, entrepreneurs around the world ran to their nearest venture capitalists for new ideas and capital. Many did not manage the influx of capital prudently, and overspent on ideas rather than managing them prudently. Newcom business plans were predicated on the assumption that by using the Internet, they would bypass the distribution channels of existing businesses.
+<br>
+  <div class="cont float-cont"style="color:white">
+    <img src="Images/internet8.jpg" width="500" class="image" style="width: 25%">
+     When the dot-com bubble burst in 1998, entrepreneurs around the world ran to their nearest venture capitalists for new ideas and capital. Many did not manage the influx of capital prudently, and overspent on ideas rather than managing them prudently. Newcom business plans were predicated on the assumption that by using the Internet, they would bypass the distribution channels of existing businesses.
       Ultimately, as we discussed about the inflating balloon, the prices rose approximately around five times. Then, the slow deflating balloon came between 2000 to 2002. And finally had to burst out in 2002. Well, one of the reasons the bubble burst is the 9/11 Attack, which was a news and is still considered a turning point.
       As we closely see, we can understand that, many companies died. Investors were facing a huge loss, like literally a huge loss. Where we can see the bad side of this happening, there was a good side, for some. Amazon’s Company loss was present, but gradually, the revenue of this enormous company increased exponentially. To elaborate, the stock price of Amazon after this period dropped drastically. But later on, the same stock price increased approximately 100 times. Thus, in the end, we can that, this example of bubble burst proved to be a huge lesson of human nature for every person who has faced it.
-    </div>
   </div>
-
-  <div class="cont float-cont1">
-    <img src="Images/internet10.jpg" width="300">
-    <div>
+  <br>
+  <div class="cont float-cont" style="color:white">
+    <img src="Images/internet10.jpg" width="300" class="image" style="width: 25%">
       Amazon and eBay were considered lightning, sparkling and shining bursts around the year 1990. As any other famous company, idea of an online bookstore under the name "Amazon" started in a garage in Seattle. It was none other than Jeff Bezos, a guy from the Wall Street, a highly organized and inquisitive being and a spreadsheet enthusiast, who was doing the task. With the popularity of internet and millions of users using it in every possible part of the planet, this was an idea which cannot go down or flop.
       The idea of bookstore was simple. His views and key points summarized to a point that no library or bookstore can store every book present in this planet. Approximately, during the same timeline, Pierre Omidyar, just like any other coder, had a creative mind. He had an idea of building a site, where people can auction goods. Post Labour Day, later in around 1995, he started creating just a simple code in which we can create an advertisement, list up all the similar ones and bid in similar items of others like actual usual auctions happen, but in a virtual manner. At the time of their initiation of start-ups, we can observe that, Bezos had a very commercial mind and Omidyar, well, he was, earlier said, just a humble coder.
       With Internet spreading like wild fire, Bezos and Omidyar started to create new models of commerce, or we can say E-Commerce. With the integration of Internet and emerging popularity of nimble, affordable and robust personal computers, they commercialized their initial idea and took a step forward, which proved to be a golden one for them.
-    </div>
   </div>
+  <br>
 
   </p>
 </div>
 
 <div class="footer">
-  <p align="center" style="color: wheat">© 2021 Copyright: Harsh Rajesh Damania, Ronak Hemant Baviskar, Nikita Ramesh Gaikwad</p>
-  <h4 align="center" style="color: wheat">Connecting the World Digitally !</h4>
-  <img src="Images/GitHub-icon.png"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
-  <img src="Images/w3c.png" width="70"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite">W3C Validator</a>
+  <p style="color: wheat;display: block; margin: auto;">© 2021 Copyright: Harsh Rajesh Damania, Ronak Hemant Baviskar, Nikita Ramesh Gaikwad</p>
+  <h4 style="color: wheat;display: block; margin: auto;">Connecting the World Digitally !</h4>
+  <img src="Images/GitHub-icon.png" alt="github"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
+  <img src="Images/w3c.png" alt="w3c" width="70"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fproject1historyofinternetharshronaknikita.eastus.azurecontainer.io%2Fdotbubble.html" style="color: navajowhite">W3C Validator</a>
 </div>
 
 
