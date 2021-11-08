@@ -18,10 +18,7 @@
       clear: both;
       border: #005CBF;
     }
-    #grad1 {
-      background-color: DeepSkyBlue; /* For browsers that do not support gradients */
-      background-image: linear-gradient(DeepSkyBlue,Cornsilk);
-    }
+
     .float-cont > * {
       float:left;
       margin-right:5px;
@@ -37,12 +34,30 @@
     .cont:after {
       clear: both;
     }
-    a:hover {
-           background-color: #E74C3C;
-           border-color:black;
-           font-size: 20px;
-           font-weight: bolder;
-         }
+    a:hover
+    {
+      background-color: #E74C3C;
+      border-color:black;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    body {
+      background-image: url('Images/i2.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
 
   </style>
   <title>ICANN</title>
@@ -70,29 +85,30 @@
     <div class="row align-items-center position-relative">
       <div class="site-logo">
         <div class="logo">
-          <img src='Images/finallogo.PNG' , width="120" ,align="left">
+          <img src='Images/finallogo.PNG'  alt="Internet connecting the world" width="120">
           <span class="text-primary">ICANN</span>
         </div>
       </div>
       <div class="col-12">
         <nav class="site-navigation text-right ml-auto " role="navigation">
-          <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+          <ol class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
             <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="inventors.html" class="nav-link">Inventors</a></li>
             <li class="has-children">
               <a href="timeline.html" class="nav-link">Timeline</a>
-              <ul class="dropdown arrow-top">
+              <ol class="dropdown arrow-top">
                 <li><a href="truestory.html" class="nav-link">True Story</a></li>
                 <li><a href="icann.html" class="nav-link">ICANN</a></li>
                 <li><a href="dotbubble.html" class="nav-link">Dot-Com Bubble</a></li>
-              </ul>
+              </ol>
             </li>
             <li><a href="evolution.html" class="nav-link">Evolution</a></li>
             <li><a href="future.html" class="nav-link">Future</a></li>
             <li><a href="developers.html" class="nav-link">Developers</a></li>
-          </ul>
+          </ol>
         </nav>
-      </div> <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+      </div>
+ <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
     </div>
   </div>
 </header>
@@ -102,41 +118,38 @@
 <div id="grad1">
 
 
-  <div class="cont float-cont1">
-    <img src="Images/internet5.png" width=250>
-
-    <div>
+  <div class="cont float-cont" style="color:white">
+    <img src="Images/internet5.png" width=250 class="image" style="width: 20%">
       To reach another person on the Internet you have to type an address into your computer -- a name or a number. That address must be unique so computers know where to find each other. ICANN coordinates these unique identifiers across the world. Without that coordination, we wouldn't have one global internet.
       The Internet Corporation for Assigned Names and Numbers (ICANN) helps coordinate the Internet Assigned Numbers Authority (IANA) functions. The IANA functions are critical to the continued operations of the Internet's underlying address book, the Domain Name System (DNS). They include the assignment of technical protocol parameters and the administration of certain responsibilities associated with Internet DNS root zone management.
-    </div>
   </div>
+  <br>
 
-  <div class="cont float-cont1">
-    <img src="Images/internet6.png" width=300>
-    <div> Members of sub-groups in ICANN can raise issues at the grassroots level, rather than the Board of Directors solely declaring what topics ICANN will address. Then, if an issue is worth addressing and falls within ICANN's remit, it can rise through various Advisory Committees and Supporting Organizations until eventually policy recommendations are passed to the Board for a vote.
+  <div class="cont float-cont" style="color:white">
+    <img src="Images/internet6.png" width=300 class="image" style="width: 20%">
+    Members of sub-groups in ICANN can raise issues at the grassroots level, rather than the Board of Directors solely declaring what topics ICANN will address. Then, if an issue is worth addressing and falls within ICANN's remit, it can rise through various Advisory Committees and Supporting Organizations until eventually policy recommendations are passed to the Board for a vote.
       ICANN provides an arena where all advocates can discuss Internet policy issues. Almost anyone can join most of ICANN's volunteer Working Groups, assuring broad representation. Process resists capture by any single interest– an important consideration when managing a resource as vital as the global Internet.
       ICANN's belief is that all users of the Internet deserve a say in how it is run. In the ICANN community, you'll find registries, ISPs, intellectual property advocates, commercial and business interests, non-commercial and non-profit interests, and individual Internet users.
-    </div>
   </div>
+  <br>
 
-  <div class="cont float-cont1">
-    <img src="Images/image.png" width=500 height="350">
-    <div>
+  <div class="cont float-cont" style="color:white">
+    <img src="Images/image.png" width=100 class="image" style="width: 20%">
       The Policy Development Support Team (PDT) supports the ICANN community's development of bottom-up, consensus policies and guidelines that help advance the stable and secure operation of the Internet's unique identifier systems. The Policy Staff facilitates the community's formation of policies that are. Developed through a highly participative, fair, and balanced process in a timely and efficient way.
       Reconsideration Request - A request for reconsideration or review of an ICANN action or inaction to the extent that the person or entity has been adversely affected by it. This includes any staff actions or inactions that contradict established ICANN policy(ies) or are taken as a result of the Board's reliance on false or inaccurate material information.
       All Reconsideration Requests must be submitted within 15 days after the date on which information about the challenged Board action is first published in a resolution, unless the posting of the resolution is not accompanied by a rationale. All requests challenging either Board or staff inaction are reviewed and considered by the Board Governance Committee. The BGC may make recommendation to the Board for consideration and action.
       ICANN has determined that the reconsideration process can properly be invoked for challenges to expert determinations rendered by panels formed by third party dispute resolution service providers in the New gTLD Program. The Board shall issue its decision on the recommendation of the BGC within sixty days of receipt of the Reconsideration Request or as soon thereafter as feasible.
-    </div>
   </div>
+  <br>
 
   </p>
 </div>
 
 <div class="footer">
-  <p align="center" style="color: wheat">© 2021 Copyright: Harsh Rajesh Damania, Ronak Hemant Baviskar, Nikita Ramesh Gaikwad</p>
-  <h4 align="center" style="color: wheat">Connecting the World Digitally !</h4>
-  <img src="Images/GitHub-icon.png"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
-  <img src="Images/w3c.png" width="70"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite">W3C Validator</a>
+  <p style="color: wheat;display: block; margin: auto;">© 2021 Copyright: Harsh Rajesh Damania, Ronak Hemant Baviskar, Nikita Ramesh Gaikwad</p>
+  <h4 style="color: wheat;display: block; margin: auto;">Connecting the World Digitally !</h4>
+  <img src="Images/GitHub-icon.png" alt="github"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
+  <img src="Images/w3c.png" alt="w3c" width="70"><a href="http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/icann.html" style="color: navajowhite">W3C Validator</a>
 </div>
 
 <script src="js/jquery-3.3.1.min.js"></script>
