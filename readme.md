@@ -5,5 +5,5 @@
 2) Harsh Rajesh Damania
 3) Nikita Ramesh Gaikwad
 
-#Azure Webiste Link for the Project :
+#Azure Website Link for the Project :
 [project1historyofinternetharshronaknikita](http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/index.html)
