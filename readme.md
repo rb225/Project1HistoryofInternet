@@ -1,9 +1,7 @@
-#IS601 Project 1 : History of the Internet
+#IS601 Project 2 
 
-#Group Member :
-1) Ronak Hemant Baviskar
-2) Harsh Rajesh Damania
-3) Nikita Ramesh Gaikwad
+#Made By:
+ Ronak Hemant Baviskar
 
 #Azure Website Link for the Project :
 [project1historyofinternetharshronaknikita](http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/index.html)
